@@ -1,0 +1,22 @@
+.header {
+    background-color: rgb(204, 25, 25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    color: rgb(204, 25, 25);
+    background-color: rgb(243, 243, 243);
+    transition: .8s;
+    border-radius: 10px;
+}
