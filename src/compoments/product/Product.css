@@ -1,0 +1,10 @@
+.product-container img {
+  width: 288px;
+  border-radius: 10px;
+}
+.product-container {
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
