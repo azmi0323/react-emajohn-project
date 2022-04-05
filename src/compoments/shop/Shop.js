@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../cart/Cart';
 import Products from '../products/Products';
 import './Shop.css'
 const Shop = () => {
@@ -7,8 +8,8 @@ const Shop = () => {
             <div className='shop-container'>
                 <Products></Products>
             </div>
-            <div>
-                <h1>jabi</h1>
+            <div className='bg-danger'>
+                <Cart></Cart>
             </div>
         </div>
     );
